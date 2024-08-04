@@ -1,5 +1,6 @@
 var previous_ID = null;
-function myFunction(typ3) {
+function myFunction(typ3)
+{
     if (previous_ID !== null && typ3 !== previous_ID)
     {
         var x_previous = document.getElementById(previous_ID);
@@ -13,4 +14,9 @@ function myFunction(typ3) {
     } else {
       x.style.display = "none";
     }
-  }
+}
+
+window.onbeforeunload = function ()
+{
+  window.scrollTo(0, 0);
+}
