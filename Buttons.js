@@ -15,8 +15,3 @@ function myFunction(typ3)
       x.style.display = "none";
     }
 }
-
-window.onbeforeunload = function ()
-{
-  window.scrollTo(0, 0);
-}
