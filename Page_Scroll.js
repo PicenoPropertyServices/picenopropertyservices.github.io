@@ -1,4 +1,4 @@
-window.onbeforeunload = function ()
+function scroll_default()
 {
   window.scrollTo(0, 0);
 }
