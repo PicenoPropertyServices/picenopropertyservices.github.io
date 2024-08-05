@@ -1,3 +1,3 @@
-function scroll_default(){
+window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
